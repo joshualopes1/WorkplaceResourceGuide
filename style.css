@@ -130,7 +130,12 @@ body{
   color:var(--navy);line-height:1.2;margin-bottom:12px;
 }
 
-.hero-content p{font-size:14.5px;color:var(--gray);line-height:1.75}
+.hero-content p{
+  font-size:16px;
+  color:var(--gray);
+  line-height:1.8;
+  max-width:680px;
+}
 
 /* Panel body and content */
 .panel-body{padding:36px 44px 48px}
